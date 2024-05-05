@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import NewsBoard from './components/NewsBoard'
 
 const App = () => {
-  const [genre,setGenre]=useState();
+  const [genre,setGenre]=useState("general");
   return (
     <div>
       <Navbar setGenre={setGenre}/>

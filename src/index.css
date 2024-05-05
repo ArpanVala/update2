@@ -10,7 +10,6 @@
   /* margin-left: auto !important; */
 }
 .nav-item a {
-  font-size: larger;
   color: white !important;
 }
 .nav-item a:hover {
@@ -22,4 +21,7 @@
 /* NewsCard css */
 .card {
   text-align: justify !important;
+}
+.nav-link {
+  cursor: pointer;
 }
